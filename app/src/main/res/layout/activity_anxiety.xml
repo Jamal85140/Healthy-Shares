@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="60sp">
+
+
+    <TextView
+        android:id="@+id/text_view_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Emotion Log"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/text_view_anxiety"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_log"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        android:text="Anxiety"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+
+    <EditText
+        android:layout_below="@id/text_view_anxiety"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80sp"
+        android:hint="Describe how anxious you are today!"/>
+
+
+</RelativeLayout>

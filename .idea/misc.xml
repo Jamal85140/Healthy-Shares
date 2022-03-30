@@ -3,6 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Jamal/Documents/GitHub/Healthy-Shares/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3225" />
+        <entry key="..\:/Users/Jamal/Documents/GitHub/Healthy-Shares/app/src/main/res/layout/Settings.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Jamal/Documents/GitHub/Healthy-Shares/app/src/main/res/layout/activity_anger.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Jamal/Documents/GitHub/Healthy-Shares/app/src/main/res/layout/activity_anxiety.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Jamal/Documents/GitHub/Healthy-Shares/app/src/main/res/layout/activity_happy.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Jamal/Documents/GitHub/Healthy-Shares/app/src/main/res/layout/activity_main.xml" value="0.5074074074074074" />
+        <entry key="..\:/Users/Jamal/Documents/GitHub/Healthy-Shares/app/src/main/res/layout/activity_sadness.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Jamal/Documents/GitHub/Healthy-Shares/app/src/main/res/layout/anger.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Jamal/Documents/GitHub/Healthy-Shares/app/src/main/res/layout/happy.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Jamal/Documents/GitHub/Healthy-Shares/app/src/main/res/layout/sadness.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Jamal/Documents/GitHub/Healthy-Shares/app/src/main/res/layout/settings.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Rhy-No/Documents/GitHub/Healthy-Shares/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Rhy-No/Documents/GitHub/HealthyShares/app/src/main/res/layout/activity_main.xml" value="0.67" />
       </map>

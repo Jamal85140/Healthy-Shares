@@ -10,6 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthyShares">
         <activity
+            android:label="Anxiety"
+            android:parentActivityName=".MainActivity"
+            android:name=".Anxiety"
+            android:exported="false" />
+        <activity
+            android:name=".Anger"
+            android:exported="false"
+            android:label="Anger"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Sadness"
+            android:exported="false"
+            android:label="Sadness"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Happy"
+            android:exported="false"
+            android:label="Happy"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".activity_main"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

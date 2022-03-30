@@ -1,85 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:layout_centerHorizontal="true"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/settings_header"
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="75dp"
-        android:text="Log Tracker"
-        android:textSize="50dp"
-        android:textAlignment="center"/>
+        android:layout_height="match_parent">
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-
-        <com.google.android.material.textfield.TextInputLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="30sp">
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
+
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="Add" />
-        </com.google.android.material.textfield.TextInputLayout>
-    </LinearLayout>
+                android:text="Healthy Shares"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <ListView
-            android:layout_width="match_parent"
-            android:layout_height="200dp" />
-
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/addemailbtn"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_weight="0"
-            android:layout_gravity="center"
-            android:clickable="true"
-            app:srcCompat="@android:drawable/ic_input_add" />
+            <Button
+                android:id="@+id/button_happy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="50sp"
+                android:backgroundTint="#06AF0A"
+                android:text="Happy"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
 
 
-    </LinearLayout>
+            <Button
+                android:id="@+id/button_sadness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="80sp"
+                android:backgroundTint="#003ACC"
+                android:text="Sadness"
+                android:textSize="13sp" />
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-
-        <Button
-            android:id="@+id/savebtn"
-            android:layout_width="100dp"
-            android:layout_height="40dp"
-            android:layout_gravity="left"
-            android:hint="Add"
-            android:padding="40dp"
-            />
-
-        <Button
-            android:id="@+id/closebtn"
-            android:layout_width="100dp"
-            android:layout_height="40dp"
-            android:layout_gravity="right"
-            android:padding="40dp"
-            android:hint="Home"
-
-            />
-    </LinearLayout>
-</LinearLayout>
+            <Button
+                android:id="@+id/button_anxiety"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="-48sp"
+                android:layout_marginEnd="60sp"
+                android:backgroundTint="#EFD706"
+                android:text="Anxiety"
+                android:textSize="13sp" />
 
 
+            <Button
+                android:id="@+id/button_Anger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-146sp"
+                android:layout_marginEnd="-70sp"
+                android:backgroundTint="#C50112"
+                android:text="Anger"
+                android:textSize="13sp" />
+
+
+            <EditText
+                android:id="@+id/edit_text_describe"
+                android:layout_width="349dp"
+                android:layout_height="162dp"
+                android:layout_gravity="center"
+                android:layout_margin="190sp"
+                android:hint="How are you feeling today? : " />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
