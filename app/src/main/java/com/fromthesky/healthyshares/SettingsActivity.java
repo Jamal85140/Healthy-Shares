@@ -18,7 +18,7 @@ public class SettingsActivity extends AppCompatActivity {
     }
 /*
     protected void onItemClick() {
-        //please update MainActivity.class as needed
+        //update MainActivity.class as needed
         Intent intent = new Intent();
         intent.setClass(SettingsActivity.this, MainActivity.class);
         startActivity(intent);
