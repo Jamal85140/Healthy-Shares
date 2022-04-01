@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 
 public class SettingsActivity extends AppCompatActivity {
 
@@ -24,6 +25,7 @@ public class SettingsActivity extends AppCompatActivity {
 
     }
 */
+
 
     public String getAndroidVersion() {
         String release = Build.VERSION.RELEASE;
