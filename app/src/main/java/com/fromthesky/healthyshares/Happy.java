@@ -3,6 +3,7 @@ package com.fromthesky.healthyshares;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Button;
 
 public class Happy extends AppCompatActivity {
 
@@ -10,5 +11,11 @@ public class Happy extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_happy);
+
+
+
+
+
+
     }
 }
