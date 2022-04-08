@@ -31,11 +31,12 @@
         app:layout_constraintBottom_toBottomOf="parent">
 
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/email_text_input_layout"
+    <EditText
+        android:id="@+id/email"
         android:layout_width="413dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:inputType="textWebEmailAddress"
         app:endIconMode="clear_text" />
 </androidx.cardview.widget.CardView>
 
@@ -55,16 +56,17 @@
                     android:layout_height="50dp"
                     android:layout_gravity="center"
                     android:clickable="true"
-
+                    android:onClick="store_email"
                     android:padding="40dp"
                     app:srcCompat="@android:drawable/ic_input_add"
-                    android:contentDescription="@string/add_email" />
+                    android:contentDescription="@string/add_email"
+                    />
 
                 <ListView
-                    android:id="@+id/list_options"
+                    android:id="@+id/listView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:entries="@id/list_options"/>
+                    android:entries="@id/listView"/>
             </LinearLayout>
 
             <LinearLayout
@@ -93,7 +95,7 @@
                     android:padding="40dp"
                     android:text="@string/home"
                     android:textColor="@color/black"
-
+                    android:clickable="true"
                      />
             </LinearLayout>
         </LinearLayout>
